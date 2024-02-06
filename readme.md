@@ -29,3 +29,9 @@ cargo rustc -- -C link-args="ENTRY:_start SUBSYSTEM:console"
 ```bash
 cargo rustc -- -C link-args="-e __start -static -nostartfiles"
 ```
+
+- for crate builds as a custom kernel
+
+```bash
+cargo build --target x86_64-hello_os.json
+```
