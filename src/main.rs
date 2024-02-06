@@ -3,7 +3,7 @@
 
 use core::panic::PanicInfo;
 
-static HELLO: &[u8] = b"Hello World!";
+static HELLO: &[u8] = b"Hello World! - Welcome to the Hello OS - powered by @davidprocode";
 
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
